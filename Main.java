@@ -8,10 +8,13 @@ public class Main {
     public static void main(String[] args) {
         // Create a list of items
         List<Item> items = new ArrayList<>();
-        // items.add(new Book("1","1"));
-        // items.add(new Movie("1","2"));
-        items.add(new Buy("2","4"));
-        items.add(new VideoGame("5","1"));
+        items.add(new Book("Book","1"));
+        items.add(new Movie("Movie","2"));
+        items.add(new Buy("Buy","3"));
+        items.add(new VideoGame("VideoGame","4"));
+        items.add(new Speakers("Speakers","5"));
+        items.add(new Ang("Ang","5"));
+        items.add(new Song("Song","6"));
 
 
         // Create a list of names

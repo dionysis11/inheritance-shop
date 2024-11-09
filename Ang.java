@@ -16,7 +16,7 @@ public class Ang extends Item implements Borrowable {
         if (borrower != null) {
             System.out.println("The Ang is already borrowed by :" + borrower);
         } else {
-            System.out.prinln("The Ang is not borrowed");
+            System.out.println("The Ang is not borrowed");
         }
 
     }
