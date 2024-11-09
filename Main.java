@@ -8,10 +8,19 @@ public class Main {
     public static void main(String[] args) {
         // Create a list of items
         List<Item> items = new ArrayList<>();
+        // items.add(new Book("1","1"));
+        // items.add(new Movie("1","2"));
+        items.add(new Buy("2","4"));
+        items.add(new VideoGame("5","1"));
+
 
         // Create a list of names
         List<String> names = new ArrayList<>();
         names.add("Dionysis");
+        names.add("Stelios");
+        names.add("Konstantinos");
+        names.add("Aggelos");
+
 
         // Create maps to track borrowing stats
         Map<String, Integer> itemBorrowCount = new HashMap<>();

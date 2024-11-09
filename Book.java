@@ -1,7 +1,7 @@
-public class Movie extends Item implements Borrowable {
+public class Book extends Item implements Borrowable {
     private String borrower;
 
-    public Movie(String title, String id) {
+    public Book(String title, String id) {
         super(title, id);
         this.borrower = null;
     }
